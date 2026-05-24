@@ -131,10 +131,11 @@ try:
 except ImportError:
     cloudinary = None
 
-cloudinary.config(
-    cloud_name='drqupeyun',
-    api_key='145367439457726',
-    api_secret='9C88Ace1YPpke-KzhrJpIyZtU8Q'
-)
+if cloudinary:
+    cloudinary.config(
+        cloud_name='drqupeyun',
+        api_key='145367439457726',
+        api_secret='9C88Ace1YPpke-KzhrJpIyZtU8Q'
+    )
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
