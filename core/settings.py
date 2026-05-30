@@ -26,12 +26,9 @@ SECRET_KEY = 'django-insecure-@nli(18ing22ca6@yi!etb$(#*%g)&+dx&$m23c&+-)ymam*0i
 DEBUG = True
 
 ALLOWED_HOSTS = [
-
-    "127.0.0.1",
-
+    "migrant-worker-backend.onrender.com",
     "localhost",
-
-    "10.110.64.4",
+    "127.0.0.1",
 ]
 
 # Application definition
